@@ -1,0 +1,144 @@
+.choose-us {
+    border-radius: 30px;
+    background-color: #171E44;
+    position: relative;
+}
+
+.choose-us .h1 {
+    margin: 40px;
+    color: white;
+    font-size: 45px;
+}
+
+.choose-us p {
+    margin: 40px;
+    line-height: 2;
+    font-size: 25px;
+    color: white;
+}
+
+.choose-us button {
+    border-radius: 30px;
+    color: white;
+    background-color: #FF8D5C;
+    padding: 12px 70px;
+    margin: 40px;
+    border: 0px;
+}
+
+.choose-us .right {
+    display: block;
+    align-items: center;
+
+}
+
+.choose-us img {
+    max-width: 100%
+}
+
+@media (max-width: 992px) {
+    .choose-us img {
+        display: none;
+    }
+}
+
+.choose-us .right img {
+    height: 500px;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 20px;
+    object-fit: cover;
+    background-color: #97D1D5;
+    border-radius: 77% 23% 33% 67% / 58% 37% 63% 42%;
+    border-radius: 40% 60% 39% 61% / 39% 34% 66% 61%;
+}
+
+.choose-us .link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.choose-us .right .app {
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 26px;
+
+
+}
+
+.choose-us .right .app h1 {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 16px;
+
+}
+
+.choose-us .right .app a {
+    color: #171E44;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+
+.choose-us .right .google {
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 26px;
+
+}
+
+.choose-us .right .google h1 {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 16px;
+}
+
+.choose-us .right .google a {
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 16px;
+
+}
+
+.choose-us .container-fluid .ico {
+    position: absolute;
+    background: #fff;
+    border-radius: 60px;
+    text-align: center;
+    bottom: -20px;
+    right: 580px;
+    border: 10px solid #171E44;
+    width: 70px;
+    height: 70px;
+
+}
+
+@media (min-width:1200px) {
+    .choose-us .container-fluid i {
+        right: 495px;
+    }
+}
+
+@media (max-width:992px) {
+    .choose-us .container-fluid i {
+        right: 435px;
+    }
+}
+
+@media (max-width:767px) {
+    .choose-us .container-fluid i {
+        right: 260px;
+    }
+}

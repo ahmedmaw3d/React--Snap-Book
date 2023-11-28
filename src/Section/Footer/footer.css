@@ -1,0 +1,108 @@
+.footer {
+    background-color: #171E44;
+    padding: 100px 0px 80px;
+    border-radius: 20px;
+}
+
+.footer .container {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer .box h3 {
+    color: white;
+    font-size: 22px;
+}
+
+.footer .box p {
+    line-height: 1.8;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.footer .box h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.footer .box h1 {
+    color: white;
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.footer .box a {
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+.footer .box .line i {
+    color: white;
+    font-size: 18px;
+}
+
+.footer .box .line a {
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+
+.footer .boxs h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.footer .link {
+    display: block;
+}
+
+.footer .boxs .app {
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.footer .boxs .app h1 {
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.footer .boxs .app a {
+    color: #171E44;
+    margin-left: 16px;
+}
+
+.footer .boxs .google {
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+
+
+.footer .boxs .google h1 {
+    font-size: 14px;
+    margin-left: 16px;
+
+}
+
+.footer .boxs .google a {
+    color: #171E44;
+    font-size: 14px;
+    margin-left: 16px;
+
+}
