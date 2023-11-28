@@ -16,7 +16,7 @@
     border-radius: 50px;
     line-height: 70px;
     padding: 15px;
-    margin-left: 60px;
+    margin-left: 90px;
 }
 
 .features h3 {
@@ -29,13 +29,7 @@
     font-size: 16px;
 }
 
-.features .elementor-icon {
-    display: inline-block;
-    line-height: 1;
-    transition: all .3s;
-    color: #69727d;
-    text-align: center;
-}
+
 
 @media(max-width: 992px) {
     .features .elementor-icon {

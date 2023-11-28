@@ -115,13 +115,14 @@
 .choose-us .container-fluid .ico {
     position: absolute;
     background: #fff;
-    border-radius: 60px;
+    border-radius: 40px;
     text-align: center;
     bottom: -20px;
     right: 580px;
     border: 10px solid #171E44;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
 
 }
 
