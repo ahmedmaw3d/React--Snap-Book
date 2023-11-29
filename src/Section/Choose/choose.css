@@ -13,7 +13,7 @@
 .choose-us p {
     margin: 40px;
     line-height: 2;
-    font-size: 25px;
+    font-size: 27px;
     color: white;
 }
 
@@ -117,29 +117,23 @@
     background: #fff;
     border-radius: 40px;
     text-align: center;
-    bottom: -20px;
+    bottom: -40px;
     right: 580px;
     border: 10px solid #171E44;
     width: 80px;
     height: 80px;
-    padding: 10px;
+    padding: 15px;
 
 }
 
 @media (min-width:1200px) {
-    .choose-us .container-fluid i {
-        right: 495px;
+    .choose-us .container-fluid .ico {
+        right: 590px;
     }
 }
 
 @media (max-width:992px) {
-    .choose-us .container-fluid i {
-        right: 435px;
-    }
-}
-
-@media (max-width:767px) {
-    .choose-us .container-fluid i {
-        right: 260px;
+    .choose-us .container-fluid .ico {
+        right: 340px;
     }
 }

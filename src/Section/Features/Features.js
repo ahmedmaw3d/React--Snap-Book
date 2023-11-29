@@ -9,8 +9,10 @@ const Features = () => {
                 <div className="container">
                     <div className="row d-flex justify-content-between  mt-5">
                         <div className="col-sm-3 col-lg-3 ">
-                            <div style={{ backgroundColor: "#B8DDB6" }} className='i'>
-                                < FaCalendarAlt size={30} />
+                            <div style={{ backgroundColor: "#B8DDB6" }} className='i mt-5'>
+                                <div className="icon ">
+                                    < FaCalendarAlt size={30} />
+                                </div>
                             </div>
                             <h3>Alt på ett sted</h3>
                             <p>Regnskap, faktura, timer og lønn. Alt du trenger på ett sted, uten stress
@@ -18,7 +20,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-sm-3 col-lg-3 ">
-                            <div style={{ backgroundColor: "#FEF0C2" }} className='i'>
+                            <div style={{ backgroundColor: "#FEF0C2" }} className='i mt-5'>
                                 <HiOutlineCog6Tooth size={30} />
                             </div>
                             <h3>Mindre knot, mer fritid</h3>
@@ -27,7 +29,7 @@ const Features = () => {
                         </div>
 
                         <div className="col-sm-3 col-lg-3 ">
-                            <div style={{ backgroundColor: " #D8EEF2" }} className='i'>
+                            <div style={{ backgroundColor: " #D8EEF2" }} className='i mt-5'>
                                 <FaHandHoldingUsd size={30} />
                             </div>
                             <h3>Styr unna feilene</h3>
