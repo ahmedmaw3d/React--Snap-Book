@@ -7,13 +7,13 @@
 .choose-us .h1 {
     margin: 40px;
     color: white;
-    font-size: 45px;
+    font-size: 53px;
 }
 
 .choose-us p {
     margin: 40px;
     line-height: 2;
-    font-size: 27px;
+    font-size: 30px;
     color: white;
 }
 
@@ -106,19 +106,21 @@
 }
 
 .choose-us .right .google a {
-    color: black;
+    color: #171E44;
     margin-bottom: 20px;
     margin-left: 16px;
 
 }
-
+.choose-us .arrow {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 .choose-us .container-fluid .ico {
     position: absolute;
     background: #fff;
     border-radius: 40px;
-    text-align: center;
-    bottom: -40px;
-    right: 580px;
+    bottom: -45px;
     border: 10px solid #171E44;
     width: 80px;
     height: 80px;
@@ -128,12 +130,12 @@
 
 @media (min-width:1200px) {
     .choose-us .container-fluid .ico {
-        right: 590px;
+       text-align: center;
     }
 }
 
 @media (max-width:992px) {
     .choose-us .container-fluid .ico {
-        right: 340px;
+        text-align: center;
     }
 }

@@ -8,8 +8,8 @@ import Header from './Section/Header/header';
 const App = () => {
   return (
     <div>
-     <div class=" d-flex justify-content-center w-100">
-        <div class="col-xl-8">
+     <div className=" d-flex justify-content-center w-100">
+        <div className="col-xl-9">
           <Header/>
           <Choose/>
           <Features />

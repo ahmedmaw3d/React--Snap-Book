@@ -2,7 +2,8 @@ import { FaApple } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa6";
 import snapbook from '../../image/snapbooks-forside.webp';
-import "./choose.css"
+import "./choose.css";
+
 const Choose = () => {
     return (
         <div className="choose-us">
@@ -15,6 +16,7 @@ const Choose = () => {
                             <p>Sammen skal vi 100% automatisere regnskapet ditt</p>
                         </div>
                     </div>
+
                     <div className="col-md">
                         <div className="right">
                             <div className="image">
@@ -23,7 +25,7 @@ const Choose = () => {
                             <div className="link">
                                 <div className="app">
                                     <div>
-                                        <FaApple size={30} />
+                                        <FaApple size={40} />
                                     </div>
                                     <div className="last">
                                         <h1>Last ned pa</h1>
@@ -31,7 +33,7 @@ const Choose = () => {
                                     </div>
                                 </div>
                                 <div className="google">
-                                    <FaGooglePlay size={30} />
+                                    <FaGooglePlay size={35} />
                                     <div className="last">
                                         <h1>Last ned pa</h1>
                                         <a href="#">Google pLAY</a>
@@ -40,8 +42,10 @@ const Choose = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="ico">
-                        <FaArrowDown />
+                    <div className="arrow">
+                        <div className="ico">
+                            <FaArrowDown />
+                        </div>
                     </div>
                 </div>
             </div>

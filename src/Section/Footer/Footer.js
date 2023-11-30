@@ -1,6 +1,7 @@
 import { FaApple } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import "./footer.css";
+
 const Footer = () => {
     return (
         <div>
@@ -15,6 +16,7 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="box">
                                 <h2>SELSKAP</h2>
@@ -22,6 +24,7 @@ const Footer = () => {
                                 <a href="#">Kontakt oss</a>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="box">
                                 <div className="line">
@@ -32,6 +35,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="box">
                                 <div className="line">
@@ -41,13 +45,14 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col">
                             <div className="boxs">
                                 <div className="link">
                                     <h2>LAST NED APP</h2>
                                     <div className="app">
                                         <div>
-                                            <FaApple size={30} />
+                                            <FaApple size={40} />
                                         </div>
                                         <div className="last">
                                             <h1>Last ned pa</h1>
@@ -55,10 +60,10 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div className="google">
-                                        <FaGooglePlay size={30} />
+                                        <FaGooglePlay size={35} />
                                         <div className="last">
                                             <h1>Last ned pa</h1>
-                                            <a href="#">Google pLAY</a>
+                                            <a href="">Google pLAY</a>
                                         </div>
                                     </div>
                                 </div>
